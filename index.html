@@ -1,17 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Inicio de mi pagina informativa HTML">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP web 1</title>
+    <link rel="stylesheet" href="carpetaEstilo_JS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
 <body>
+    <!--
+    Este es un maquetado simple de mi proyecto de una pagina informativa enfocada en un club deportivo de barrio de Marcos Paz
+    -->
     <header>
-        <h1>Titulo del index</h1>
+        <div id="box">
+            <a href="index.html" target="_self">
+                <img id="imagen" src="imagenes_enlace/imageSapaPequeño.png" alt="Escudo de sapa">
+            </a>
+        </div>
+
+        <button id="boton">☰</button>
+
+        <nav>
+            <ul id="ListaNav">
+                <li class="enlaces"><a class="anclajes" href="#">Noticias</a></li>
+                <li class="enlaces"><a class="anclajes" href="#">Historia</a></li>
+                <li class="enlaces"><a class="anclajes" href="#">Plantel</a></li>
+                <li class="enlaces"><a class="anclajes" href="#">Tienda</a></li>
+                <li class="enlaces"><a class="anclajes" href="#">Fotos</a></li>
+                <li class="enlaces"><a class="anclajes" href="Nosotros.html" target="_self">Nosotros</a> </li>
+                <li class="enlaces"><a class="anclajes" href="Contacto.html" target="_self">Contactanos</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>Hola mundo</p>
-        <p> Url del repositorio en github: <a href="https://github.com/JustinianoAgustin/pweb_1.git"> ACA</a>
-    </main></p> 
+
+    <main id="Cuerpo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, iusto.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus repudiandae voluptate.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus repudiandae voluptate.</p>
+        <br>
+        <h3>Donde estamos:</h3>
+
+        <div id="contenedorMain">
+            <section id="ubicacion">
+            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.835862598509!2d-58.83267322336669!3d-34.784907167091326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcec000cd51ea5%3A0xea879c7a75515422!2sClub%20Sapa!5e0!3m2!1ses-419!2sar!4v1781752771435!5m2!1ses-419!2sar" width="400" height="300"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                
+                 <p><strong>Ubicacion</strong></p>
+            </section>
+    
+            <aside>
+                <p>redes sociales</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>  
+                </ul>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="Pie">
+        <p>Copyright 2026 SOCIEDAD ATLETICA PABELLO ARGENTINO | Desarrollado por <strong>Diaz Justiniano Agustin</strong></p>
+            <ul>
+                <li><a href="https://www.instagram.com/handballsapa/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-x"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+    </footer>
+
+    <script src="carpetaEstilo_JS/archivoJS.js"></script>
 </body>
+
 </html>
