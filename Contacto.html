@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento de Contacto</title>
     <link rel="stylesheet" href="carpetaEstilo_JS/estilo.css">
+    <link rel="shortcut icon" href="imagenes_enlace/imageSapaPequeño.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -19,7 +21,7 @@
         <nav>
             <ul id="ListaNav">
                 <li class="enlaces"><a class="anclajes" href="#">Noticias</a></li>
-                <li class="enlaces"><a class="anclajes" href="#">Historia</a></li>
+                <li class="enlaces"><a class="anclajes" href="#">Calendario</a></li>
                 <li class="enlaces"><a class="anclajes" href="#">Plantel</a></li>
                 <li class="enlaces"><a class="anclajes" href="#">Tienda</a></li>
                 <li class="enlaces"><a class="anclajes" href="#">Fotos</a></li>
@@ -31,25 +33,22 @@
 
     <main id="Cuerpo">
         <h2>Nosotros</h2>
-       
-        <div>
             <p><strong>Informacion adicional de contacto</strong></p>
             <p></p>
-        </div>
+
         <section>
             <p>Si tiene alguna duda, por favor complete con sus datos el siguiente formulario</p>
-            <div>
-                <form action="index.html" target="_blank">
-                    <p><label for="nombre">Nombre: <input type="text" required></label></p>
-                    <p><label for="apellido">Apellido: <input type="text" required></label></p>
-                    <p><label for="correo">Correo: <input type="email" required></label></p>
-                    <p><label for="telefono">Telefono: <input type="tel" required></label></p>
+            <div id="contenedorContacto">
+                <form id="formulario" action="index.html" target="_blank">
+                    <p><label for="nombre">Nombre: <input type="text"></label></p>
+                    <p><label for="apellido">Apellido: <input type="text"></label></p>
+                    <p><label for="correo">Correo: <input type="email"></label></p>
+                    <p><label for="telefono">Telefono: <input type="tel"></label></p>
                     <p>Escriba abajo el comentario que quiera dejarnos: </p>
-                    <textarea name="mensaje" rows="10" cols="15" required></textarea>
+                    <textarea name="mensaje" rows="10" cols="40" required></textarea>
                     <button type="submit">Enviar</button>
                 </form>
             </div>
-            
         </section>
     </main>
    
@@ -57,9 +56,9 @@
         <p>Copyright 2026 SOCIEDAD ATLETICA PABELLO ARGENTINO | Desarrollado por <strong>Diaz Justiniano Agustin</strong></p>
         <aside>
             <ul>
-                <li><a href="https://www.instagram.com/handballsapa/"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-x"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/handballsapa/" target="_blank"><i class="fa-brands fa-instagram" style="color: white;"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-x" style="color: white; "></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook" style="color: white;"></i></a></li>
             </ul>
         </aside>
     </footer>
