@@ -73,7 +73,7 @@ a{
     flex: 1;
 }
 
-#contenedorMain{
+#contenedorMainIndex{
     width: 90%;
     display: flex;
     justify-content: space-evenly;
@@ -161,6 +161,7 @@ a{
         color:  blue;
         cursor: pointer;
     }
+    
 }
 
 #CuerpoNoticia{
@@ -168,8 +169,32 @@ a{
     flex: 1;
 }
 
+#contenedorMainNosotros{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+}
+
+#contenedorMainNosotros h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
 #contenedorMainNosotros img{
-    width: 700px;
+    width: 100%;
+    display: block;
+    margin-bottom: 50px;
+}
+
+#contenedorMainNosotros p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 5px;
 }
 
 #contenedorContacto{
