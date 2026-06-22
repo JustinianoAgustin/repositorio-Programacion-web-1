@@ -6,22 +6,18 @@ body{
     background-color: white;
     text-align: center;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
 
 header{
     width: 100%;
-    background-color: rgb(53, 53, 236);
+    background-color: rgb(10, 10, 143);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-h3{
-    display: flex;
 }
 
 ul{
@@ -62,7 +58,7 @@ a{
 }
 
 .anclajes{
-    color: black;
+    color: rgba(252, 252, 252, 0.884);
 }
 
 .anclajes:hover{
@@ -78,16 +74,25 @@ a{
 }
 
 #contenedorMain{
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
 }
 
+#ubicacion{
+    display: flex;
+}
+
+#direccionSAPA{
+   text-align: left;
+   margin-left: 15px;
+}
+
+
 #Pie{
-    background-color: rgb(55, 55, 245);
+    background-color: rgb(10, 10, 143);
     margin-top: 47px;
-    padding: 20px;
-    border: 2px solid black;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,10 +103,15 @@ a{
 }
 
 #Pie ul{
+    display: flex;
     margin-left: 20px;
 }
 
-@media (max-width: 980px){
+#Pie ul li{
+    margin: 10px;
+}
+
+@media (max-width: 1201px){
 
     header{
         flex-direction: column;
@@ -151,4 +161,22 @@ a{
         color:  blue;
         cursor: pointer;
     }
+}
+
+#CuerpoNoticia{
+    align-items: center;
+    flex: 1;
+}
+
+#contenedorMainNosotros img{
+    width: 700px;
+}
+
+#contenedorContacto{
+    width: 40%;
+}
+
+#formulario{
+    border: 2px solid black;
+    border-radius: 10px;
 }
