@@ -164,6 +164,22 @@ a{
     
 }
 
+@media (max-width: 1100px){
+
+    #contenedorMainIndex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ubicacion{
+        margin-left: 120px;
+    }
+
+    aside img{
+        padding: 20px;
+    }
+}
+
 #CuerpoNoticia{
     align-items: center;
     flex: 1;
@@ -205,4 +221,20 @@ a{
 #formulario{
     border: 2px solid black;
     border-radius: 10px;
+}
+
+#contenedorArticulos{
+    width: 95%;
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.articulos{
+    width: 40%;
+    height: 40px;
+    margin-left: 40px;
+    border: 1px solid brown;
+
 }
