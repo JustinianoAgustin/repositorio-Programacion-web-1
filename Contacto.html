@@ -39,14 +39,36 @@
         <section>
             <p>Si tiene alguna duda, por favor complete con sus datos el siguiente formulario</p>
             <div id="contenedorContacto">
-                <form id="formulario" action="index.html" target="_blank">
-                    <p><label for="nombre">Nombre: <input type="text"></label></p>
-                    <p><label for="apellido">Apellido: <input type="text"></label></p>
-                    <p><label for="correo">Correo: <input type="email"></label></p>
-                    <p><label for="telefono">Telefono: <input type="tel"></label></p>
-                    <p>Escriba abajo el comentario que quiera dejarnos: </p>
-                    <textarea name="mensaje" rows="10" cols="40" required></textarea>
+                <form id="formulario">
+        
+                    <label for="nombre">
+                        Nombre:
+                        <input type="text" id="nombre" required>
+                    </label>
+        
+                    <label for="apellido">
+                        Apellido:
+                        <input type="text" id="apellido" required>
+                    </label>
+        
+                    <label for="correo">
+                        Correo electrónico:
+                        <input type="email" id="correo" required>
+                    </label>
+        
+                    <label for="telefono">
+                        Teléfono:
+                        <input type="tel" id="telefono">
+                    </label>
+        
+                    <label for="mensaje">
+                        Mensaje:
+                    </label>
+        
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+        
                     <button type="submit">Enviar</button>
+        
                 </form>
             </div>
         </section>
