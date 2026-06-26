@@ -33,6 +33,7 @@ ul{
 }
 
 a{
+    color: #000;
     text-decoration: none;
 }
 
@@ -192,9 +193,8 @@ a{
     }
 }
 
-
-
 #CuerpoNoticia{
+    margin-top: 10px;
     align-items: center;
     flex: 1;
 }
@@ -203,7 +203,9 @@ a{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0 50px 0;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
 }
 
 #contenedorMainNosotros h2{
@@ -218,6 +220,7 @@ a{
     width: 100%;
     display: block;
     margin-bottom: 50px;
+    border: 2px solid black
 }
 
 #contenedorMainNosotros p{
@@ -226,6 +229,11 @@ a{
     line-height: 1.8;
     text-align: left;
     margin-bottom: 5px;
+}
+
+.fuenteContacto{
+    color: #1e73ff;
+    float: left;
 }
 
 #contenedorContacto{
@@ -253,7 +261,7 @@ a{
     width: 100%;
     max-width: 400px;
     padding: 12px;
-    border: 1px solid #cfcfcf;
+    border: 1px solid;
     border-radius: 25px;
     margin-top: 5px;
     box-sizing: border-box;
@@ -263,7 +271,7 @@ a{
     width: 100%;
     min-height: 180px;
     padding: 15px;
-    border: 1px solid #cfcfcf;
+    border: 1px solid ;
     border-radius: 25px;
     resize: vertical;
     box-sizing: border-box;
@@ -294,8 +302,16 @@ a{
     width: 40%;
     height: 95%;
     margin-left: 40px;
-    border: 1px solid blue;
+    border: 1px solid transparent; 
+    border-radius: 5px;
+    transition: all .3s ease;
+    
     justify-content: space-evenly;
+}
+
+.articulos:hover{
+    border: 1px solid rgb(43, 43, 238);
+    box-shadow: -2px 2px 1px rgb(148, 148, 148);
 }
 
 .imagenesArticulos{
